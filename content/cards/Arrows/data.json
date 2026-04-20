@@ -1,0 +1,15 @@
+{
+    "name": "Arrows",
+    "cost": 4,
+    "rarity": "common",
+    "pack": "starter",
+    "mods": [
+        {
+            "type": "RainOfArrows",
+            "attributes": {
+                "damage": 1
+            },
+            "placement": "global"
+        }
+    ]
+}

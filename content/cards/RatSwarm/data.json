@@ -1,0 +1,35 @@
+{
+    "name": "Rat Swarm",
+    "cost": 3,
+    "rarity": "common",
+    "pack": "starter",
+    "mods": [
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "troop": "rat",
+                "health": 1,
+                "move": 1
+            },
+            "placement": {
+                "mask": [
+                    [
+                        [],
+                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        []
+                    ],
+                    [
+                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        ["IsOrigin", "IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"]
+                    ],
+                    [
+                        [],
+                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        []
+                    ]
+                ]
+            }
+        }
+    ]
+}

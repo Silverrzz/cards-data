@@ -1,0 +1,11 @@
+{
+    "name": "RainOfArrows",
+    "description": "Deals damage to affected tiles.",
+    "attributes": [
+        {
+            "name": "damage",
+            "type": "u16",
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "SpawnTroop",
+    "description": "Spawns a troop on valid target tiles.",
+    "attributes": [
+        {
+            "name": "troop",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "health",
+            "type": "u16",
+            "required": true
+        },
+        {
+            "name": "move",
+            "type": "u16",
+            "required": true
+        }
+    ]
+}

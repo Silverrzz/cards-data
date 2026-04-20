@@ -1,0 +1,7 @@
+{
+    "name":  "NotEmpty",
+    "description":  "This tile must contain something.",
+    "conflicts_with":  [
+                           "IsEmpty"
+                       ]
+}

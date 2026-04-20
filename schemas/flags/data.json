@@ -1,0 +1,24 @@
+{
+    "schema_version": 1,
+    "description": "Allowed top-level keys for each data/content/flags/<flag_id>/data.json.",
+    "fields": [
+        {
+            "name": "name",
+            "description": "Flag id; must match the parent folder name.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "description",
+            "description": "Human-readable explanation of what this flag means on a tile.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "conflicts_with",
+            "description": "Other flag names that cannot appear on the same tile as this flag.",
+            "type": "string_list",
+            "required": true
+        }
+    ]
+}

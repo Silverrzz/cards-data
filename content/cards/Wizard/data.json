@@ -1,0 +1,21 @@
+{
+    "name": "Wizard",
+    "cost": 4,
+    "rarity": "rare",
+    "pack": "starter",
+    "mods": [
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "troop": "wizard",
+                "health": 2,
+                "move": 1
+            },
+            "placement": {
+                "mask": [
+                    [["IsOrigin", "IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"]]
+                ]
+            }
+        }
+    ]
+}

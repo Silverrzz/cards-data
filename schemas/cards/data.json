@@ -1,0 +1,36 @@
+{
+    "schema_version": 1,
+    "description": "Allowed top-level keys for each data/content/cards/<card_id>/data.json.",
+    "fields": [
+        {
+            "name": "name",
+            "description": "Display name shown in the UI.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "cost",
+            "description": "Mana or energy cost to play the card.",
+            "type": "u16",
+            "required": true
+        },
+        {
+            "name": "rarity",
+            "description": "Rarity tier (e.g. common, rare).",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "pack",
+            "description": "Which pack or set this card belongs to.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "mods",
+            "description": "Ordered mod instances; mod types are defined under data/content/mods/<mod_type>/.",
+            "type": "mods",
+            "required": true
+        }
+    ]
+}

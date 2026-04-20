@@ -1,0 +1,7 @@
+{
+    "name":  "IsNextToEdge",
+    "description":  "This tile must be adjacent to the board edge.",
+    "conflicts_with":  [
+                           "NotNextToEdge"
+                       ]
+}

@@ -1,0 +1,9 @@
+{
+    "name":  "IsFriendlyTerritory",
+    "description":  "This tile must be in friendly territory.",
+    "conflicts_with":  [
+                           "IsNoMansLandTerritory",
+                           "IsEnemyTerritory",
+                           "NotFriendlyTerritory"
+                       ]
+}
