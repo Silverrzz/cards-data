@@ -24,6 +24,7 @@
                             "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
+                            "NotEnemyTerritory",
                             "IsEmpty"
                         ],
                         []
@@ -65,14 +66,17 @@
                     [
                         [
                             "IsFocus",
+                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ],
                         [
                             "IsFocus",
+                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ],
                         [
                             "IsFocus",
+                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     ]
