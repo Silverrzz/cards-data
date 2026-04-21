@@ -3,5 +3,81 @@
     "cost": 1,
     "rarity": "Common",
     "pack": "Core",
-    "mods": []
+    "mods": [
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "troop": "human",
+                "health": 2,
+                "move": 0
+            },
+            "placement": {
+                "mask": [
+                    [
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsEmpty"
+                        ],
+                        []
+                    ],
+                    [
+                        [],
+                        [
+                            "Dealbreaker",
+                            "IsFriendlyTerritory"
+                        ],
+                        []
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "troop": "human",
+                "health": 1,
+                "move": 0
+            },
+            "placement": {
+                "mask": [
+                    [
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [
+                            "IsOrigin",
+                            "Dealbreaker",
+                            "IsNoMansLandTerritory"
+                        ],
+                        []
+                    ],
+                    [
+                        [
+                            "IsFocus",
+                            "IsEmpty"
+                        ],
+                        [
+                            "IsFocus",
+                            "IsEmpty"
+                        ],
+                        [
+                            "IsFocus",
+                            "IsEmpty"
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
 }
