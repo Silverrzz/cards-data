@@ -59,7 +59,7 @@
                         [
                             "IsOrigin",
                             "Dealbreaker",
-                            "IsNoMansLandTerritory",
+                            "NotFriendlyTerritory",
                             "IsEmpty"
                         ],
                         []
