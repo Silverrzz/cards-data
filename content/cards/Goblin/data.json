@@ -1,0 +1,41 @@
+{
+    "name": "Goblin",
+    "cost": 2,
+    "rarity": "Common",
+    "pack": "Core",
+    "mods": [
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "troop": "goblin",
+                "health": 2,
+                "move": 1
+            },
+            "placement": {
+                "mask": [
+                    [
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ],
+                        []
+                    ],
+                    [
+                        [],
+                        [],
+                        []
+                    ]
+                ]
+            }
+        }
+    ]
+}
