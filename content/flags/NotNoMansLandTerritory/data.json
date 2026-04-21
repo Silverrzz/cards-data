@@ -1,7 +1,7 @@
 {
-    "name":  "NotNoMansLandTerritory",
-    "description":  "This tile must not be in no man\u0027s land territory.",
-    "conflicts_with":  [
-                           "IsNoMansLandTerritory"
-                       ]
+    "name": "NotNoMansLandTerritory",
+    "description": "This tile must not be in no man's land territory.",
+    "conflicts_with": [
+        "IsNoMansLandTerritory"
+    ]
 }

@@ -13,7 +13,15 @@
             },
             "placement": {
                 "mask": [
-                    [["IsOrigin", "IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"]]
+                    [
+                        [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    ]
                 ]
             }
         }

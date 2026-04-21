@@ -15,17 +15,43 @@
                 "mask": [
                     [
                         [],
-                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ],
                         []
                     ],
                     [
-                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
-                        ["IsOrigin", "IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
-                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"]
+                        [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ],
+                        [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ],
+                        [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
                     ],
                     [
                         [],
-                        ["IsFocus", "Dealbreaker", "IsFriendlyTerritory", "IsEmpty"],
+                        [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ],
                         []
                     ]
                 ]

@@ -1,7 +1,5 @@
 {
-    "name":  "IsOrigin",
-    "description":  "Marks the clicked anchor tile that the mask offsets are translated around.",
-    "conflicts_with":  [
-
-                       ]
+    "name": "IsOrigin",
+    "description": "Marks the clicked anchor tile that the mask offsets are translated around.",
+    "conflicts_with": []
 }

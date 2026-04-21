@@ -1,7 +1,7 @@
 {
-    "name":  "NotContainsEnemy",
-    "description":  "This tile must not contain an enemy unit.",
-    "conflicts_with":  [
-                           "ContainsEnemy"
-                       ]
+    "name": "NotContainsEnemy",
+    "description": "This tile must not contain an enemy unit.",
+    "conflicts_with": [
+        "ContainsEnemy"
+    ]
 }
