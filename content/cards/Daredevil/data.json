@@ -24,7 +24,6 @@
                             "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
-                            "NotEnemyTerritory",
                             "IsEmpty"
                         ],
                         []
