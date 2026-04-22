@@ -12,48 +12,59 @@
                 "move": 1
             },
             "placement": {
-                "mask": [
-                    [
-                        [],
-                        [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ],
-                        []
-                    ],
-                    [
-                        [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ],
-                        [
-                            "IsOrigin",
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ],
-                        [
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "flags": [
                             "IsFocus",
                             "Dealbreaker",
                             "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
-                    ],
-                    [
-                        [],
-                        [
+                    },
+                    {
+                        "x": 0,
+                        "y": -1,
+                        "flags": [
                             "IsFocus",
                             "Dealbreaker",
                             "IsFriendlyTerritory",
                             "IsEmpty"
-                        ],
-                        []
-                    ]
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 1,
+                        "flags": [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    }
                 ]
             }
         }

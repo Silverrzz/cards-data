@@ -1,15 +1,13 @@
 {
-    "name": "Goblin",
-    "cost": 2,
-    "rarity": "Common",
-    "pack": "Core",
+    "name": "Health Potion",
+    "cost": 1,
+    "rarity": "rare",
+    "pack": "starter",
     "mods": [
         {
-            "type": "SpawnTroop",
+            "type": "HealthPotion",
             "attributes": {
-                "troop": "goblin",
-                "health": 2,
-                "move": 1
+                "heal": 2
             },
             "placement": {
                 "type": "Offset",

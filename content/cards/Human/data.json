@@ -12,16 +12,19 @@
                 "move": 1
             },
             "placement": {
-                "mask": [
-                    [
-                        [
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
                             "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
                             "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
-                    ]
+                    }
                 ]
             }
         }

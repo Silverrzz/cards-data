@@ -9,7 +9,10 @@
             "attributes": {
                 "damage": 1
             },
-            "placement": "global"
+            "placement": {
+                "type": "Global",
+                "flags": []
+            }
         }
     ]
 }
