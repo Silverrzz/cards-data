@@ -1,0 +1,27 @@
+{
+    "name": "Health Potion",
+    "cost": 1,
+    "rarity": "rare",
+    "pack": "starter",
+    "mods": [
+        {
+            "type": "HealthPotion",
+            "attributes": {
+                "heal": 2
+            },
+            "placement": {
+                "mask": [
+                    [
+                        [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
