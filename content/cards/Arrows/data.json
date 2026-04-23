@@ -2,7 +2,7 @@
     "name": "Arrows",
     "cost": 4,
     "rarity": "common",
-    "pack": "starter",
+    "pack": "Core",
     "mods": [
         {
             "type": "RainOfArrows",

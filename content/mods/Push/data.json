@@ -12,9 +12,5 @@
             "type": "i16",
             "required": true
         }
-    ],
-    "default_placement": {
-        "type": "Global",
-        "flags": []
-    }
+    ]
 }

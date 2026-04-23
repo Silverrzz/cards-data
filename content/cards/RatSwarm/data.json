@@ -2,7 +2,7 @@
     "name": "Rat Swarm",
     "cost": 3,
     "rarity": "common",
-    "pack": "starter",
+    "pack": "Core",
     "mods": [
         {
             "type": "SpawnTroop",

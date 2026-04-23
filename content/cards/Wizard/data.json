@@ -2,7 +2,7 @@
     "name": "Wizard",
     "cost": 4,
     "rarity": "rare",
-    "pack": "starter",
+    "pack": "Core",
     "mods": [
         {
             "type": "SpawnTroop",

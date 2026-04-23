@@ -2,7 +2,7 @@
     "name": "Health Potion",
     "cost": 1,
     "rarity": "rare",
-    "pack": "starter",
+    "pack": "Core",
     "mods": [
         {
             "type": "HealthPotion",
