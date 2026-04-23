@@ -9,7 +9,7 @@
         },
         {
             "name": "MoveDist",
-            "type": "u16",
+            "type": "i16",
             "required": true
         }
     ]
