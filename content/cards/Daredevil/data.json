@@ -15,6 +15,14 @@
                 "type": "Offset",
                 "tiles": [
                     {
+                        "x": -1,
+                        "y": 0,
+                        "flags": [
+                            "Dealbreaker",
+                            "IsFriendlyTerritory"
+                        ]
+                    },
+                    {
                         "x": 0,
                         "y": 0,
                         "flags": [
@@ -22,14 +30,6 @@
                             "IsFocus",
                             "Dealbreaker",
                             "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": -1,
-                        "y": 0,
-                        "flags": [
-                            "Dealbreaker",
-                            "IsFriendlyTerritory"
                         ]
                     }
                 ]
@@ -46,6 +46,29 @@
                 "type": "Offset",
                 "tiles": [
                     {
+                        "x": -1,
+                        "y": -1,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": -1,
+                        "flags": []
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
                         "x": 0,
                         "y": 0,
                         "flags": [
@@ -57,30 +80,17 @@
                     },
                     {
                         "x": -1,
-                        "y": -1,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": -1,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": -1,
                         "y": 1,
                         "flags": [
                             "IsFocus",
                             "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 1,
+                        "flags": []
                     }
                 ]
             }
