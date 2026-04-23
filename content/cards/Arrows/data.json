@@ -7,7 +7,7 @@
         {
             "type": "RainOfArrows",
             "attributes": {
-                "damage": 1
+                "Damage": 1
             },
             "placement": {
                 "type": "Global",

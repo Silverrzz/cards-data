@@ -7,7 +7,7 @@
         {
             "type": "HealthPotion",
             "attributes": {
-                "heal": 2
+                "Heal": 2
             },
             "placement": {
                 "type": "Offset",

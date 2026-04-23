@@ -7,9 +7,9 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "troop": "goblin",
-                "health": 2,
-                "move": 1
+                "Troop": "goblin",
+                "Health": 2,
+                "Move": 1
             },
             "placement": {
                 "type": "Offset",

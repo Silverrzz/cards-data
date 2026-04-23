@@ -7,9 +7,9 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "troop": "rat",
-                "health": 1,
-                "move": 1
+                "Troop": "rat",
+                "Health": 1,
+                "Move": 1
             },
             "placement": {
                 "type": "Offset",

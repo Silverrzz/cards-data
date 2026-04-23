@@ -7,9 +7,9 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "troop": "wizard",
-                "health": 2,
-                "move": 1
+                "Troop": "wizard",
+                "Health": 2,
+                "Move": 1
             },
             "placement": {
                 "type": "Offset",
