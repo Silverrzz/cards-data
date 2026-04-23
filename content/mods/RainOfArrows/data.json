@@ -3,7 +3,7 @@
     "description": "Deals damage to affected tiles.",
     "attributes": [
         {
-            "name": "damage",
+            "name": "Damage",
             "type": "u16",
             "required": true
         }

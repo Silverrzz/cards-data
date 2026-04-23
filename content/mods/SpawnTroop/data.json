@@ -3,17 +3,17 @@
     "description": "Spawns a troop on valid target tiles.",
     "attributes": [
         {
-            "name": "troop",
+            "name": "Troop",
             "type": "string",
             "required": true
         },
         {
-            "name": "health",
+            "name": "Health",
             "type": "u16",
             "required": true
         },
         {
-            "name": "move",
+            "name": "Move",
             "type": "u16",
             "required": true
         }

@@ -3,7 +3,7 @@
     "description": "Heals all troops on the selected tiles",
     "attributes": [
         {
-            "name": "heal",
+            "name": "Heal",
             "type": "u16",
             "required": true
         }
