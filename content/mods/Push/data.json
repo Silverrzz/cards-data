@@ -1,0 +1,16 @@
+{
+    "name": "Push",
+    "description": "Pushes a troop.",
+    "attributes": [
+        {
+            "name": "MoveType",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "MoveDist",
+            "type": "u16",
+            "required": true
+        }
+    ]
+}
