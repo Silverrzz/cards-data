@@ -92,7 +92,7 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "Troop": "human",
+                "Troop": "Human",
                 "Health": 2,
                 "Move": 0
             },

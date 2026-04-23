@@ -7,7 +7,7 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "Troop": "goblin",
+                "Troop": "Goblin",
                 "Health": 2,
                 "Move": 1
             },

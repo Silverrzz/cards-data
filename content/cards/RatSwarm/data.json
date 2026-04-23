@@ -7,7 +7,7 @@
         {
             "type": "SpawnTroop",
             "attributes": {
-                "Troop": "rat",
+                "Troop": "Rat",
                 "Health": 1,
                 "Move": 1
             },
