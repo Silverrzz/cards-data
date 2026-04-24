@@ -19,8 +19,7 @@
                             "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
+                            "ContainsAlly"
                         ]
                     }
                 ]
