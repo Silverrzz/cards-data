@@ -26,7 +26,6 @@
                         "x": 0,
                         "y": 0,
                         "flags": [
-                            "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
                             "IsEmpty"
@@ -72,7 +71,6 @@
                         "x": 0,
                         "y": 0,
                         "flags": [
-                            "IsOrigin",
                             "Dealbreaker",
                             "NotFriendlyTerritory",
                             "IsEmpty"

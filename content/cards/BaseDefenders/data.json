@@ -18,7 +18,6 @@
                         "x": 0,
                         "y": 0,
                         "flags": [
-                            "IsOrigin",
                             "IsFocus",
                             "Dealbreaker",
                             "IsFriendlyTerritory",
@@ -38,7 +37,6 @@
             "placement": {
                 "type": "Ray",
                 "origin_flags": [
-                    "IsOrigin",
                     "Dealbreaker",
                     "IsNextToFriendlyBase",
                     "IsEmpty"
