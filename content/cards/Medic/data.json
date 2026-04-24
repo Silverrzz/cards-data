@@ -5,6 +5,30 @@
     "pack": "Core",
     "mods": [
         {
+            "type": "SpawnTroop",
+            "attributes": {
+                "Troop": "Human",
+                "Health": 2,
+                "Move": 0
+            },
+            "placement": {
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             "type": "HealthPotion",
             "attributes": {
                 "Heal": 1
@@ -84,30 +108,6 @@
                         "flags": [
                             "IsFocus",
                             "ContainsAlly"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Human",
-                "Health": 2,
-                "Move": 0
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsOrigin",
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
                         ]
                     }
                 ]
