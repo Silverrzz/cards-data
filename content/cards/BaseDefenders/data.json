@@ -1,0 +1,110 @@
+{
+    "name": "Base Defenders",
+    "cost": 3,
+    "rarity": "Common",
+    "pack": "Core",
+    "mods": [
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "Troop": "Human",
+                "Health": 6,
+                "Move": 0
+            },
+            "placement": {
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
+                            "IsOrigin",
+                            "IsFocus",
+                            "Dealbreaker",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SpawnTroop",
+            "attributes": {
+                "Troop": "Human",
+                "Health": 3,
+                "Move": 0
+            },
+            "placement": {
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": -3,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": -2,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
+                            "IsOrigin",
+                            "Dealbreaker",
+                            "IsNextToFriendlyBase",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 2,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    },
+                    {
+                        "x": 3,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus",
+                            "IsFriendlyTerritory",
+                            "IsEmpty"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
