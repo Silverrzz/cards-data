@@ -43,7 +43,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     },
@@ -52,7 +51,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     },
@@ -61,7 +59,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     },
@@ -81,7 +78,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     },
@@ -90,7 +86,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     },
@@ -99,7 +94,6 @@
                         "y": 0,
                         "flags": [
                             "IsFocus",
-                            "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
                     }
