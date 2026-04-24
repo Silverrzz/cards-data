@@ -83,7 +83,6 @@
                         "y": 0,
                         "flags": [
                             "IsOrigin",
-                            "IsFocus",
                             "Dealbreaker",
                             "IsNextToFriendlyBase",
                             "IsEmpty"
