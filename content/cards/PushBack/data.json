@@ -1,0 +1,28 @@
+{
+    "name": "Push Back",
+    "cost": 1,
+    "rarity": "Common",
+    "pack": "Core",
+    "mods": [
+        {
+            "type": "Push",
+            "attributes": {
+                "MoveType": "Forward",
+                "MoveDist": 1
+            },
+            "placement": {
+                "type": "Offset",
+                "tiles": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "flags": [
+                            "IsOrigin",
+                            "ContainsEnemy"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
