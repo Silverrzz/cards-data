@@ -84,6 +84,7 @@
                         "flags": [
                             "IsOrigin",
                             "IsFocus",
+                            "Dealbreaker",
                             "IsNextToFriendlyBase",
                             "IsEmpty"
                         ]
