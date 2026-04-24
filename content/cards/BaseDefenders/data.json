@@ -71,7 +71,6 @@
                         "flags": [
                             "IsOrigin",
                             "Dealbreaker",
-                            "IsNextToFriendlyBase",
                             "IsFriendlyTerritory",
                             "IsEmpty"
                         ]
