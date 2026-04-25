@@ -82,19 +82,18 @@
                             "Type": "Offset",
                             "Tiles": [
                                 {
-                                    "X": 0,
-                                    "Y": -1,
-                                    "Flags": [
-                                        "IsFocus",
-                                        "Dealbreaker",
-                                        "IsFriendlyTerritory",
-                                        "IsEmpty"
-                                    ]
+                                    "X": -1,
+                                    "Y": 0,
+                                    "Flags": []
                                 },
                                 {
                                     "X": 0,
                                     "Y": 0,
-                                    "Flags": []
+                                    "Flags": [
+                                        "IsFocus",
+                                        "Dealbreaker",
+                                        "IsEmpty"
+                                    ]
                                 }
                             ]
                         }
