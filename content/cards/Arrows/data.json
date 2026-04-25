@@ -8,7 +8,7 @@
             "Id": "RainOfArrows",
             "Trigger": "OnPlay",
             "Attributes": {
-                "Damage": 0
+                "Damage": 1
             },
             "Description": {
                 "Lines": []
