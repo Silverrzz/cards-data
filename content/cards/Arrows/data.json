@@ -1,0 +1,33 @@
+{
+    "Name": "Arrows",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Pack": "Core",
+    "CardMods": [
+        {
+            "Id": "RainOfArrows",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Damage": 1
+            },
+            "Description": {
+                "Lines": []
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
