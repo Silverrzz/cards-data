@@ -11,6 +11,15 @@
                 "Health": 2,
                 "Move": 0
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Summons a " },
+                        { "text": "Human", "tone": "gold" },
+                        { "text": " (2)," }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [
@@ -31,6 +40,17 @@
             "type": "HealthPotion",
             "attributes": {
                 "Heal": 1
+            },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "then heals nearby " },
+                        { "text": "allies", "tone": "blue" }
+                    ],
+                    [
+                        { "text": "for 1." }
+                    ]
+                ]
             },
             "placement": {
                 "type": "Offset",

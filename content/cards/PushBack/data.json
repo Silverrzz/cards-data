@@ -10,6 +10,16 @@
                 "MoveType": "Forward",
                 "MoveDist": 1
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Pushes the target" }
+                    ],
+                    [
+                        { "text": "forward by 1." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [

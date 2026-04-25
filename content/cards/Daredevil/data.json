@@ -11,6 +11,15 @@
                 "Health": 2,
                 "Move": 0
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Summons a " },
+                        { "text": "Human", "tone": "gold" },
+                        { "text": " (2)." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [
@@ -40,6 +49,20 @@
                 "Troop": "Human",
                 "Health": 1,
                 "Move": 0
+            },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "If placed beyond " },
+                        { "text": "Friendly Territory", "tone": "blue" },
+                        { "text": "," }
+                    ],
+                    [
+                        { "text": "summons " },
+                        { "text": "Human", "tone": "gold" },
+                        { "text": " (1) in the lane." }
+                    ]
+                ]
             },
             "placement": {
                 "type": "Offset",

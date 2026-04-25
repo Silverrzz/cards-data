@@ -9,6 +9,17 @@
             "attributes": {
                 "Heal": 2
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Restore 2 to an" }
+                    ],
+                    [
+                        { "text": "allied unit", "tone": "blue" },
+                        { "text": "." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [

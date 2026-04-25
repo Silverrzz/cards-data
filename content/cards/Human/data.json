@@ -11,6 +11,15 @@
                 "Health": 3,
                 "Move": 1
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Summons a " },
+                        { "text": "Human", "tone": "gold" },
+                        { "text": " (3)." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [

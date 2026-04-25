@@ -11,6 +11,15 @@
                 "Health": 2,
                 "Move": 1
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Summons a " },
+                        { "text": "Goblin", "tone": "gold" },
+                        { "text": " (2)." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [

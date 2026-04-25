@@ -11,6 +11,18 @@
                 "Health": 1,
                 "Move": 1
             },
+            "description": {
+                "lines": [
+                    [
+                        { "text": "Summons " },
+                        { "text": "Rat", "tone": "gold" },
+                        { "text": " (1)" }
+                    ],
+                    [
+                        { "text": "around the target tile." }
+                    ]
+                ]
+            },
             "placement": {
                 "type": "Offset",
                 "tiles": [
