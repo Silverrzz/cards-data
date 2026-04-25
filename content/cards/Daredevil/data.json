@@ -14,9 +14,16 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Summons a " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (2)." }
+                        {
+                            "text": "Summons a "
+                        },
+                        {
+                            "text": "Human",
+                            "tone": "gold"
+                        },
+                        {
+                            "text": " (2)."
+                        }
                     ]
                 ]
             },
@@ -39,6 +46,11 @@
                             "Dealbreaker",
                             "IsEmpty"
                         ]
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "flags": []
                     }
                 ]
             }
@@ -53,14 +65,28 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "If placed beyond " },
-                        { "text": "Friendly Territory", "tone": "blue" },
-                        { "text": "," }
+                        {
+                            "text": "If placed beyond "
+                        },
+                        {
+                            "text": "Friendly Territory",
+                            "tone": "blue"
+                        },
+                        {
+                            "text": ","
+                        }
                     ],
                     [
-                        { "text": "summons " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (1) in the lane." }
+                        {
+                            "text": "summons "
+                        },
+                        {
+                            "text": "Human",
+                            "tone": "gold"
+                        },
+                        {
+                            "text": " (1) in the lane."
+                        }
                     ]
                 ]
             },
@@ -78,6 +104,11 @@
                     },
                     {
                         "x": 0,
+                        "y": -1,
+                        "flags": []
+                    },
+                    {
+                        "x": 1,
                         "y": -1,
                         "flags": []
                     },
@@ -100,6 +131,11 @@
                         ]
                     },
                     {
+                        "x": 1,
+                        "y": 0,
+                        "flags": []
+                    },
+                    {
                         "x": -1,
                         "y": 1,
                         "flags": [
@@ -110,6 +146,11 @@
                     },
                     {
                         "x": 0,
+                        "y": 1,
+                        "flags": []
+                    },
+                    {
+                        "x": 1,
                         "y": 1,
                         "flags": []
                     }

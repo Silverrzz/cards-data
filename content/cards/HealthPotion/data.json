@@ -12,11 +12,18 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Restore 2 to an" }
+                        {
+                            "text": "Restore 2 to an"
+                        }
                     ],
                     [
-                        { "text": "allied unit", "tone": "blue" },
-                        { "text": "." }
+                        {
+                            "text": "allied unit",
+                            "tone": "blue"
+                        },
+                        {
+                            "text": "."
+                        }
                     ]
                 ]
             },

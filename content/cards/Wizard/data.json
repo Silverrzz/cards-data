@@ -14,9 +14,16 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Summons a " },
-                        { "text": "Wizard", "tone": "gold" },
-                        { "text": " (2)." }
+                        {
+                            "text": "Summons a "
+                        },
+                        {
+                            "text": "Wizard",
+                            "tone": "gold"
+                        },
+                        {
+                            "text": " (2)."
+                        }
                     ]
                 ]
             },

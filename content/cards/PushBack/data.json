@@ -13,10 +13,14 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Pushes the target" }
+                        {
+                            "text": "Pushes the target"
+                        }
                     ],
                     [
-                        { "text": "forward by 1." }
+                        {
+                            "text": "forward by 1."
+                        }
                     ]
                 ]
             },
@@ -24,9 +28,66 @@
                 "type": "Offset",
                 "tiles": [
                     {
+                        "x": -1,
+                        "y": -1,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": -1,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": 1,
+                        "y": -1,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
                         "x": 0,
                         "y": 0,
                         "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": -1,
+                        "y": 1,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 1,
+                        "flags": [
+                            "IsFocus"
+                        ]
+                    },
+                    {
+                        "x": 1,
+                        "y": 1,
+                        "flags": [
+                            "IsFocus"
                         ]
                     }
                 ]

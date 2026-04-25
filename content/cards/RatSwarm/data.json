@@ -14,12 +14,21 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Summons " },
-                        { "text": "Rat", "tone": "gold" },
-                        { "text": " (1)" }
+                        {
+                            "text": "Summons "
+                        },
+                        {
+                            "text": "Rat",
+                            "tone": "gold"
+                        },
+                        {
+                            "text": " (1)"
+                        }
                     ],
                     [
-                        { "text": "around the target tile." }
+                        {
+                            "text": "around the target tile."
+                        }
                     ]
                 ]
             },

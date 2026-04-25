@@ -14,9 +14,16 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "Summons a " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (2)," }
+                        {
+                            "text": "Summons a "
+                        },
+                        {
+                            "text": "Human",
+                            "tone": "gold"
+                        },
+                        {
+                            "text": " (2),"
+                        }
                     ]
                 ]
             },
@@ -44,11 +51,18 @@
             "description": {
                 "lines": [
                     [
-                        { "text": "then heals nearby " },
-                        { "text": "allies", "tone": "blue" }
+                        {
+                            "text": "then heals nearby "
+                        },
+                        {
+                            "text": "allies",
+                            "tone": "blue"
+                        }
                     ],
                     [
-                        { "text": "for 1." }
+                        {
+                            "text": "for 1."
+                        }
                     ]
                 ]
             },
