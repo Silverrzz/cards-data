@@ -1,5 +1,5 @@
 {
-  "Name": "Rat",
-  "DisplayName": "Rat",
-  "Sprite": "sprites/rat.png"
+    "Name": "Rat",
+    "DisplayName": "Rat",
+    "Sprite": "sprites/rat.png"
 }

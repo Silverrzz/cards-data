@@ -1,45 +1,56 @@
 {
-  "Name": "Goblin",
-  "Cost": 2,
-  "Rarity": "Common",
-  "Pack": "Core",
-  "CardMods": {
-    "Id": "SpawnTroop",
-    "Trigger": "OnPlay",
-    "Attributes": {
-      "Troop": "Goblin",
-      "Health": 2,
-      "Move": 1
-    },
-    "Description": {
-      "Lines": [
+    "Name": "Goblin",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Pack": "Core",
+    "CardMods": [
         {
-          "Text": "Summons a "
-        },
-        {
-          "Text": "Goblin",
-          "Tone": "gold"
-        },
-        {
-          "Text": " (2)."
+            "Id": "SpawnTroop",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Troop": "Goblin",
+                "Health": 2,
+                "Move": 1,
+                "TroopMods": []
+            },
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "Summons a "
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "Goblin",
+                            "Tone": "gold"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": " (2)."
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
+                    ]
+                }
+            }
         }
-      ]
-    },
-    "Targeting": {
-      "Type": "FlagMask",
-      "Value": {
-        "Type": "Offset",
-        "Tiles": {
-          "X": 0,
-          "Y": 0,
-          "Flags": [
-            "IsFocus",
-            "Dealbreaker",
-            "IsFriendlyTerritory",
-            "IsEmpty"
-          ]
-        }
-      }
-    }
-  }
+    ]
 }

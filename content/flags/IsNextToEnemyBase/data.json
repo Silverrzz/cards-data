@@ -1,5 +1,7 @@
 {
-  "Name": "IsNextToEnemyBase",
-  "Description": "This tile must be adjacent to the enemy base.",
-  "ConflictsWith": "NotNextToEnemyBase"
+    "Name": "IsNextToEnemyBase",
+    "Description": "This tile must be adjacent to the enemy base.",
+    "ConflictsWith": [
+        "NotNextToEnemyBase"
+    ]
 }

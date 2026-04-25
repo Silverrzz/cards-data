@@ -1,5 +1,7 @@
 {
-  "Name": "NotEnemyTerritory",
-  "Description": "This tile must not be in enemy territory.",
-  "ConflictsWith": "IsEnemyTerritory"
+    "Name": "NotEnemyTerritory",
+    "Description": "This tile must not be in enemy territory.",
+    "ConflictsWith": [
+        "IsEnemyTerritory"
+    ]
 }

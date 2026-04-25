@@ -1,9 +1,9 @@
 {
-  "Name": "ContainsAlly",
-  "Description": "This tile must contain an allied unit.",
-  "ConflictsWith": [
-    "IsEmpty",
-    "ContainsEnemy",
-    "NotContainsAlly"
-  ]
+    "Name": "ContainsAlly",
+    "Description": "This tile must contain an allied unit.",
+    "ConflictsWith": [
+        "IsEmpty",
+        "ContainsEnemy",
+        "NotContainsAlly"
+    ]
 }

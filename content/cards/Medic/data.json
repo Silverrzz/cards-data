@@ -1,151 +1,162 @@
 {
-  "Name": "Medic",
-  "Cost": 3,
-  "Rarity": "Common",
-  "Pack": "Core",
-  "CardMods": [
-    {
-      "Id": "SpawnTroop",
-      "Trigger": "OnPlay",
-      "Attributes": {
-        "Troop": "Human",
-        "Health": 2,
-        "Move": 0
-      },
-      "Description": {
-        "Lines": [
-          {
-            "Text": "Summons a "
-          },
-          {
-            "Text": "Human",
-            "Tone": "gold"
-          },
-          {
-            "Text": " (2),"
-          }
-        ]
-      },
-      "Targeting": {
-        "Type": "FlagMask",
-        "Value": {
-          "Type": "Offset",
-          "Tiles": {
-            "X": 0,
-            "Y": 0,
-            "Flags": [
-              "IsFocus",
-              "Dealbreaker",
-              "IsFriendlyTerritory",
-              "IsEmpty"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "Id": "HealthPotion",
-      "Trigger": "OnPlay",
-      "Attributes": {
-        "Heal": 1
-      },
-      "Description": {
-        "Lines": [
-          [
-            {
-              "Text": "then heals nearby "
+    "Name": "Medic",
+    "Cost": 3,
+    "Rarity": "Common",
+    "Pack": "Core",
+    "CardMods": [
+        {
+            "Id": "SpawnTroop",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Troop": "Human",
+                "Health": 2,
+                "Move": 0,
+                "TroopMods": []
             },
-            {
-              "Text": "allies",
-              "Tone": "blue"
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "Summons a "
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "Human",
+                            "Tone": "gold"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": " (2),"
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
+                    ]
+                }
             }
-          ],
-          {
-            "Text": "for 1."
-          }
-        ]
-      },
-      "Targeting": {
-        "Type": "FlagMask",
-        "Value": {
-          "Type": "Offset",
-          "Tiles": [
-            {
-              "X": -1,
-              "Y": -1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
+        },
+        {
+            "Id": "HealthPotion",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Heal": 1
             },
-            {
-              "X": 0,
-              "Y": -1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "then heals nearby "
+                        },
+                        {
+                            "Text": "allies",
+                            "Tone": "blue"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "for 1."
+                        }
+                    ]
+                ]
             },
-            {
-              "X": 1,
-              "Y": -1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
-            },
-            {
-              "X": -1,
-              "Y": 0,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
-            },
-            {
-              "X": 0,
-              "Y": 0,
-              "Flags": [
-                "Dealbreaker",
-                "IsFriendlyTerritory",
-                "IsEmpty"
-              ]
-            },
-            {
-              "X": 1,
-              "Y": 0,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
-            },
-            {
-              "X": -1,
-              "Y": 1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
-            },
-            {
-              "X": 0,
-              "Y": 1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
-            },
-            {
-              "X": 1,
-              "Y": 1,
-              "Flags": [
-                "IsFocus",
-                "ContainsAlly"
-              ]
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": -1,
+                            "Y": -1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": 0,
+                            "Y": -1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": 1,
+                            "Y": -1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": -1,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        },
+                        {
+                            "X": 1,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": -1,
+                            "Y": 1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": 0,
+                            "Y": 1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        },
+                        {
+                            "X": 1,
+                            "Y": 1,
+                            "Flags": [
+                                "IsFocus",
+                                "ContainsAlly"
+                            ]
+                        }
+                    ]
+                }
             }
-          ]
         }
-      }
-    }
-  ]
+    ]
 }

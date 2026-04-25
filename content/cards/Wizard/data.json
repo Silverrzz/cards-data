@@ -1,73 +1,90 @@
 {
-  "Name": "Wizard",
-  "Cost": 4,
-  "Rarity": "Rare",
-  "Pack": "Core",
-  "CardMods": {
-    "Id": "SpawnTroop",
-    "Trigger": "OnPlay",
-    "Attributes": {
-      "Troop": "Wizard",
-      "Health": 2,
-      "Move": 1,
-      "TroopMods": {
-        "Id": "Fireball",
-        "Trigger": "OnTurnStart",
-        "Attributes": {
-          "Damage": 1
-        },
-        "Description": {
-          "Lines": {
-            "Text": "Deals 1 damage to the first enemy in the forward direction."
-          }
-        },
-        "Targeting": {
-          "Type": "FlagMask",
-          "Value": {
-            "Type": "Ray",
-            "OriginFlags": {},
-            "RayFlags": [
-              "IsFocus",
-              "ContainsEnemy"
-            ],
-            "TerminationFlags": [
-              "ContainsEnemy",
-              "NotIsInBounds"
-            ],
-            "Directions": "Forward"
-          }
-        }
-      }
-    },
-    "Description": {
-      "Lines": [
+    "Name": "Wizard",
+    "Cost": 4,
+    "Rarity": "Rare",
+    "Pack": "Core",
+    "CardMods": [
         {
-          "Text": "Summons a "
-        },
-        {
-          "Text": "Wizard",
-          "Tone": "gold"
-        },
-        {
-          "Text": " (2)."
+            "Id": "SpawnTroop",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Troop": "Wizard",
+                "Health": 2,
+                "Move": 1,
+                "TroopMods": {
+                    "Id": "Fireball",
+                    "Trigger": "OnTurnStart",
+                    "Attributes": {
+                        "Damage": 1,
+                        "attribute1": ""
+                    },
+                    "Description": {
+                        "Lines": [
+                            [
+                                {
+                                    "Text": "Deals 1 damage to the first enemy in the forward direction."
+                                }
+                            ]
+                        ]
+                    },
+                    "Targeting": {
+                        "Type": "FlagMask",
+                        "Value": {
+                            "Type": "Ray",
+                            "OriginFlags": [],
+                            "RayFlags": [
+                                "IsFocus",
+                                "ContainsEnemy"
+                            ],
+                            "TerminationFlags": [
+                                "ContainsEnemy",
+                                "NotIsInBounds"
+                            ],
+                            "Directions": [
+                                "Forward"
+                            ]
+                        }
+                    }
+                }
+            },
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "Summons a "
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "Wizard",
+                            "Tone": "gold"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": " (2)."
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
+                    ]
+                }
+            }
         }
-      ]
-    },
-    "Targeting": {
-      "Type": "FlagMask",
-      "Value": {
-        "Type": "Offset",
-        "Tiles": {
-          "X": 0,
-          "Y": 0,
-          "Flags": [
-            "IsFocus",
-            "Dealbreaker",
-            "IsFriendlyTerritory",
-            "IsEmpty"
-          ]
-        }
-      }
-    }
-  }
+    ]
 }

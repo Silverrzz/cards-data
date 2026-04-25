@@ -1,35 +1,43 @@
 {
-  "Name": "Push Back",
-  "Cost": 1,
-  "Rarity": "Common",
-  "Pack": "Core",
-  "CardMods": {
-    "Id": "Push",
-    "Trigger": "OnPlay",
-    "Attributes": {
-      "MoveType": "Forward",
-      "MoveDist": 1
-    },
-    "Description": {
-      "Lines": [
+    "Name": "Push Back",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Pack": "Core",
+    "CardMods": [
         {
-          "Text": "Pushes the target"
-        },
-        {
-          "Text": "forward by 1."
+            "Id": "Push",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "MoveType": "Forward",
+                "MoveDist": 1
+            },
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "Pushes the target"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "forward by 1."
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": []
+                        }
+                    ]
+                }
+            }
         }
-      ]
-    },
-    "Targeting": {
-      "Type": "FlagMask",
-      "Value": {
-        "Type": "Offset",
-        "Tiles": {
-          "X": 0,
-          "Y": 0,
-          "Flags": {}
-        }
-      }
-    }
-  }
+    ]
 }

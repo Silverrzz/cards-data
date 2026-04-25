@@ -1,6 +1,6 @@
 {
-    "Name": "RainOfArrows",
-    "Description": "Deals damage to affected tiles.",
+    "Name": "Fireball",
+    "Description": "Fireball a target from an origin",
     "Attributes": [
         {
             "Name": "Damage",

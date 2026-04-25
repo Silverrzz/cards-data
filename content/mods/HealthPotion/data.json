@@ -1,9 +1,11 @@
 {
-  "Name": "HealthPotion",
-  "Description": "Heals all troops on the selected tiles",
-  "Attributes": {
-    "Name": "Heal",
-    "Type": "u16",
-    "Required": true
-  }
+    "Name": "HealthPotion",
+    "Description": "Heals all troops on the selected tiles",
+    "Attributes": [
+        {
+            "Name": "Heal",
+            "Type": "u16",
+            "Required": true
+        }
+    ]
 }

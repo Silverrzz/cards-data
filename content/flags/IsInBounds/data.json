@@ -1,5 +1,7 @@
 {
-  "Name": "IsInBounds",
-  "Description": "This tile must be on the board.",
-  "ConflictsWith": "NotIsInBounds"
+    "Name": "IsInBounds",
+    "Description": "This tile must be on the board.",
+    "ConflictsWith": [
+        "NotIsInBounds"
+    ]
 }

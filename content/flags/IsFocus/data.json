@@ -1,5 +1,5 @@
 {
-  "Name": "IsFocus",
-  "Description": "Marks a tile that is directly affected by the mod when the placement is valid.",
-  "ConflictsWith": {}
+    "Name": "IsFocus",
+    "Description": "Marks a tile that is directly affected by the mod when the placement is valid.",
+    "ConflictsWith": []
 }

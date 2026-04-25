@@ -1,9 +1,9 @@
 {
-  "Name": "IsEmpty",
-  "Description": "This tile must contain nothing.",
-  "ConflictsWith": [
-    "NotEmpty",
-    "ContainsAlly",
-    "ContainsEnemy"
-  ]
+    "Name": "IsEmpty",
+    "Description": "This tile must contain nothing.",
+    "ConflictsWith": [
+        "NotEmpty",
+        "ContainsAlly",
+        "ContainsEnemy"
+    ]
 }

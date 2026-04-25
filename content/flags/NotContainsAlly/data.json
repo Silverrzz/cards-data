@@ -1,5 +1,7 @@
 {
-  "Name": "NotContainsAlly",
-  "Description": "This tile must not contain an allied unit.",
-  "ConflictsWith": "ContainsAlly"
+    "Name": "NotContainsAlly",
+    "Description": "This tile must not contain an allied unit.",
+    "ConflictsWith": [
+        "ContainsAlly"
+    ]
 }

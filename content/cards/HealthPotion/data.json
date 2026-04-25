@@ -1,44 +1,50 @@
 {
-  "Name": "Health Potion",
-  "Cost": 1,
-  "Rarity": "rare",
-  "Pack": "Core",
-  "CardMods": {
-    "Id": "HealthPotion",
-    "Trigger": "OnPlay",
-    "Attributes": {
-      "Heal": 2
-    },
-    "Description": {
-      "Lines": [
+    "Name": "Health Potion",
+    "Cost": 1,
+    "Rarity": "rare",
+    "Pack": "Core",
+    "CardMods": [
         {
-          "Text": "Restore 2 to an"
-        },
-        [
-          {
-            "Text": "allied unit",
-            "Tone": "blue"
-          },
-          {
-            "Text": "."
-          }
-        ]
-      ]
-    },
-    "Targeting": {
-      "Type": "FlagMask",
-      "Value": {
-        "Type": "Offset",
-        "Tiles": {
-          "X": 0,
-          "Y": 0,
-          "Flags": [
-            "IsFocus",
-            "Dealbreaker",
-            "ContainsAlly"
-          ]
+            "Id": "HealthPotion",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Heal": 2
+            },
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "Restore 2 to an"
+                        }
+                    ],
+                    [
+                        {
+                            "Text": "allied unit",
+                            "Tone": "blue"
+                        },
+                        {
+                            "Text": "."
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "ContainsAlly"
+                            ]
+                        }
+                    ]
+                }
+            }
         }
-      }
-    }
-  }
+    ]
 }
