@@ -7,6 +7,7 @@
         {
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
+            "StopHighlights": false,
             "Attributes": {
                 "Troop": "Rat",
                 "Health": 1,

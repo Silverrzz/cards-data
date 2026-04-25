@@ -7,6 +7,7 @@
         {
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
+            "StopHighlights": false,
             "Attributes": {
                 "Troop": "Goblin",
                 "Health": 2,
@@ -15,6 +16,7 @@
                     {
                         "Id": "MoveTroop",
                         "Trigger": "OnTurnStart",
+                        "StopHighlights": true,
                         "Attributes": {
                             "MoveType": "Vertical",
                             "MoveDist": 1
@@ -30,6 +32,7 @@
                     {
                         "Id": "MoveTroop",
                         "Trigger": "OnPlay",
+                        "StopHighlights": true,
                         "Attributes": {
                             "MoveType": "Vertical",
                             "MoveDist": 2

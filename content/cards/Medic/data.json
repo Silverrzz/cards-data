@@ -7,6 +7,7 @@
         {
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
+            "StopHighlights": false,
             "Attributes": {
                 "Troop": "Human",
                 "Health": 2,
@@ -55,6 +56,7 @@
         {
             "Id": "HealthPotion",
             "Trigger": "OnTurnStart",
+            "StopHighlights": false,
             "Attributes": {
                 "Heal": 1
             },
