@@ -31,7 +31,10 @@
                         "Type": "FlagMask",
                         "Value": {
                             "Type": "Ray",
-                            "OriginFlags": [],
+                            "OriginFlags": [
+                                "IsFocus",
+                                "ContainsEnemy"
+                            ],
                             "RayFlags": [
                                 "IsFocus",
                                 "ContainsEnemy"
