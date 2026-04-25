@@ -78,7 +78,7 @@
                                 },
                                 {
                                     "Id": "MoveTroop",
-                                    "Trigger": "OnPlay",
+                                    "Trigger": "OnSpawn",
                                     "StopHighlights": true,
                                     "Attributes": {
                                         "MoveType": "Vertical",
@@ -155,7 +155,7 @@
                     },
                     {
                         "Id": "MoveTroop",
-                        "Trigger": "OnPlay",
+                        "Trigger": "OnSpawn",
                         "StopHighlights": true,
                         "Attributes": {
                             "MoveType": "Vertical",
