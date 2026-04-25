@@ -42,6 +42,7 @@
                                     "ContainsEnemy"
                                 ],
                                 "TerminationFlags": [
+                                    "IsFocus",
                                     "ContainsEnemy",
                                     "NotIsInBounds"
                                 ],
