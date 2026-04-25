@@ -65,7 +65,7 @@
                                     "Trigger": "OnTurnStart",
                                     "StopHighlights": true,
                                     "Attributes": {
-                                        "MoveType": "Vertical",
+                                        "MoveType": "Forward",
                                         "MoveDist": 1
                                     },
                                     "Description": {
@@ -81,7 +81,7 @@
                                     "Trigger": "OnSpawn",
                                     "StopHighlights": true,
                                     "Attributes": {
-                                        "MoveType": "Vertical",
+                                        "MoveType": "Forward",
                                         "MoveDist": 1
                                     },
                                     "Description": {
@@ -142,7 +142,7 @@
                         "Trigger": "OnTurnStart",
                         "StopHighlights": true,
                         "Attributes": {
-                            "MoveType": "Vertical",
+                            "MoveType": "Forward",
                             "MoveDist": 0
                         },
                         "Description": {
@@ -158,7 +158,7 @@
                         "Trigger": "OnSpawn",
                         "StopHighlights": true,
                         "Attributes": {
-                            "MoveType": "Vertical",
+                            "MoveType": "Forward",
                             "MoveDist": 0
                         },
                         "Description": {
