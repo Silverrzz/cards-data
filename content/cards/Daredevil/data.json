@@ -12,7 +12,40 @@
                 "Troop": "Human",
                 "Health": 2,
                 "Move": 0,
-                "TroopMods": []
+                "TroopMods": [
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnTurnStart",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 1
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
+                        }
+                    },
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnPlay",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 0
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
+                        }
+                    }
+                ]
             },
             "Description": {
                 "Lines": [
@@ -73,7 +106,40 @@
                 "Troop": "Human",
                 "Health": 1,
                 "Move": 0,
-                "TroopMods": []
+                "TroopMods": [
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnTurnStart",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 1
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
+                        }
+                    },
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnPlay",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 0
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
+                        }
+                    }
+                ]
             },
             "Description": {
                 "Lines": [

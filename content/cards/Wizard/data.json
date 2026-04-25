@@ -12,44 +12,78 @@
                 "Troop": "Wizard",
                 "Health": 2,
                 "Move": 1,
-                "TroopMods": {
-                    "Id": "Fireball",
-                    "Trigger": "OnTurnStart",
-                    "StopHighlights": false,
-                    "Attributes": {
-                        "Damage": 1
-                    },
-                    "Description": {
-                        "Lines": [
-                            [
-                                {
-                                    "Text": "Deals 1 damage to the first enemy in the forward direction."
-                                }
+                "TroopMods": [
+                    {
+                        "Id": "Fireball",
+                        "Trigger": "OnTurnStart",
+                        "StopHighlights": false,
+                        "Attributes": {
+                            "Damage": 1
+                        },
+                        "Description": {
+                            "Lines": [
+                                [
+                                    {
+                                        "Text": "Deals 1 damage to the first enemy in the forward direction."
+                                    }
+                                ]
                             ]
-                        ]
+                        },
+                        "Targeting": {
+                            "Type": "FlagMask",
+                            "Value": {
+                                "Type": "Ray",
+                                "OriginFlags": [
+                                    "IsFocus",
+                                    "ContainsEnemy"
+                                ],
+                                "RayFlags": [
+                                    "IsFocus",
+                                    "ContainsEnemy"
+                                ],
+                                "TerminationFlags": [
+                                    "ContainsEnemy",
+                                    "NotIsInBounds"
+                                ],
+                                "Directions": [
+                                    "Forward"
+                                ]
+                            }
+                        }
                     },
-                    "Targeting": {
-                        "Type": "FlagMask",
-                        "Value": {
-                            "Type": "Ray",
-                            "OriginFlags": [
-                                "IsFocus",
-                                "ContainsEnemy"
-                            ],
-                            "RayFlags": [
-                                "IsFocus",
-                                "ContainsEnemy"
-                            ],
-                            "TerminationFlags": [
-                                "ContainsEnemy",
-                                "NotIsInBounds"
-                            ],
-                            "Directions": [
-                                "Forward"
-                            ]
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnTurnStart",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 1
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
+                        }
+                    },
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnPlay",
+                        "StopHighlights": true,
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 1
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "Self",
+                            "Value": null
                         }
                     }
-                }
+                ]
             },
             "Description": {
                 "Lines": [
