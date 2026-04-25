@@ -112,12 +112,18 @@
             "Targeting": {
                 "Type": "FlagMask",
                 "Value": {
-                    "Type": "Global",
-                    "Flags": [
-                        "IsFocus",
-                        "Dealbreaker",
-                        "IsFriendlyTerritory",
-                        "IsEmpty"
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
                     ]
                 }
             }

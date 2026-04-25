@@ -36,19 +36,25 @@
             "Targeting": {
                 "Type": "FlagMask",
                 "Value": {
-                    "Type": "Global",
-                    "Flags": [
-                        "IsFocus",
-                        "Dealbreaker",
-                        "IsFriendlyTerritory",
-                        "IsEmpty"
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
                     ]
                 }
             }
         },
         {
             "Id": "HealthPotion",
-            "Trigger": "OnPlay",
+            "Trigger": "OnTurnStart",
             "Attributes": {
                 "Heal": 1
             },
@@ -110,11 +116,7 @@
                         {
                             "X": 0,
                             "Y": 0,
-                            "Flags": [
-                                "Dealbreaker",
-                                "IsFriendlyTerritory",
-                                "IsEmpty"
-                            ]
+                            "Flags": []
                         },
                         {
                             "X": 1,
