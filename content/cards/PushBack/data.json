@@ -28,14 +28,8 @@
             "Targeting": {
                 "Type": "FlagMask",
                 "Value": {
-                    "Type": "Offset",
-                    "Tiles": [
-                        {
-                            "X": 0,
-                            "Y": 0,
-                            "Flags": []
-                        }
-                    ]
+                    "Type": "Global",
+                    "Flags": []
                 }
             }
         }
