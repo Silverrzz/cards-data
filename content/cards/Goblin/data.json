@@ -11,7 +11,56 @@
                 "Troop": "Goblin",
                 "Health": 2,
                 "Move": 1,
-                "TroopMods": []
+                "TroopMods": [
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnTurnStart",
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 1
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "FlagMask",
+                            "Value": {
+                                "Type": "Offset",
+                                "Tiles": [
+                                    {
+                                        "X": 0,
+                                        "Y": 0,
+                                        "Flags": []
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Id": "MoveTroop",
+                        "Trigger": "OnPlay",
+                        "Attributes": {
+                            "MoveType": "Vertical",
+                            "MoveDist": 2
+                        },
+                        "Description": {
+                            "Lines": []
+                        },
+                        "Targeting": {
+                            "Type": "FlagMask",
+                            "Value": {
+                                "Type": "Offset",
+                                "Tiles": [
+                                    {
+                                        "X": 0,
+                                        "Y": 0,
+                                        "Flags": []
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
             },
             "Description": {
                 "Lines": [
