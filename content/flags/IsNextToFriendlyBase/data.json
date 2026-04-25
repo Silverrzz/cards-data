@@ -1,7 +1,5 @@
 {
-    "name": "IsNextToFriendlyBase",
-    "description": "This tile must be adjacent to the friendly base.",
-    "conflicts_with": [
-        "NotNextToFriendlyBase"
-    ]
+  "Name": "IsNextToFriendlyBase",
+  "Description": "This tile must be adjacent to the friendly base.",
+  "ConflictsWith": "NotNextToFriendlyBase"
 }

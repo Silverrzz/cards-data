@@ -1,5 +1,5 @@
 {
-    "name": "Dealbreaker",
-    "description": "If this tile fails any required checks, the whole placement becomes invalid.",
-    "conflicts_with": []
+  "Name": "Dealbreaker",
+  "Description": "If this tile fails any required checks, the whole placement becomes invalid.",
+  "ConflictsWith": {}
 }

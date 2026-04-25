@@ -1,135 +1,151 @@
 {
-    "name": "Medic",
-    "cost": 3,
-    "rarity": "Common",
-    "pack": "Core",
-    "mods": [
-        {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Human",
-                "Health": 2,
-                "Move": 0
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Summons a " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (2)," }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "HealthPotion",
-            "attributes": {
-                "Heal": 1
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "then heals nearby " },
-                        { "text": "allies", "tone": "blue" }
-                    ],
-                    [
-                        { "text": "for 1." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": -1,
-                        "y": -1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": 0,
-                        "y": -1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": -1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": -1,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": -1,
-                        "y": 1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": 0,
-                        "y": 1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": 1,
-                        "flags": [
-                            "IsFocus",
-                            "ContainsAlly"
-                        ]
-                    }
-                ]
-            }
+  "Name": "Medic",
+  "Cost": 3,
+  "Rarity": "Common",
+  "Pack": "Core",
+  "CardMods": [
+    {
+      "Id": "SpawnTroop",
+      "Trigger": "OnPlay",
+      "Attributes": {
+        "Troop": "Human",
+        "Health": 2,
+        "Move": 0
+      },
+      "Description": {
+        "Lines": [
+          {
+            "Text": "Summons a "
+          },
+          {
+            "Text": "Human",
+            "Tone": "gold"
+          },
+          {
+            "Text": " (2),"
+          }
+        ]
+      },
+      "Targeting": {
+        "Type": "FlagMask",
+        "Value": {
+          "Type": "Offset",
+          "Tiles": {
+            "X": 0,
+            "Y": 0,
+            "Flags": [
+              "IsFocus",
+              "Dealbreaker",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          }
         }
-    ]
+      }
+    },
+    {
+      "Id": "HealthPotion",
+      "Trigger": "OnPlay",
+      "Attributes": {
+        "Heal": 1
+      },
+      "Description": {
+        "Lines": [
+          [
+            {
+              "Text": "then heals nearby "
+            },
+            {
+              "Text": "allies",
+              "Tone": "blue"
+            }
+          ],
+          {
+            "Text": "for 1."
+          }
+        ]
+      },
+      "Targeting": {
+        "Type": "FlagMask",
+        "Value": {
+          "Type": "Offset",
+          "Tiles": [
+            {
+              "X": -1,
+              "Y": -1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": 0,
+              "Y": -1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": 1,
+              "Y": -1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": -1,
+              "Y": 0,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": 0,
+              "Y": 0,
+              "Flags": [
+                "Dealbreaker",
+                "IsFriendlyTerritory",
+                "IsEmpty"
+              ]
+            },
+            {
+              "X": 1,
+              "Y": 0,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": -1,
+              "Y": 1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": 0,
+              "Y": 1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            },
+            {
+              "X": 1,
+              "Y": 1,
+              "Flags": [
+                "IsFocus",
+                "ContainsAlly"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
 }

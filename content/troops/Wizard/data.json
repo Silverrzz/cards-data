@@ -1,5 +1,5 @@
 {
-    "name": "Wizard",
-    "display_name": "Wizard",
-    "sprite": "sprites/wizard.png"
+  "Name": "Wizard",
+  "DisplayName": "Wizard",
+  "Sprite": "sprites/wizard.png"
 }

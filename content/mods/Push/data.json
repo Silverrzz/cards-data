@@ -1,16 +1,16 @@
 {
-    "name": "Push",
-    "description": "Pushes a troop.",
-    "attributes": [
-        {
-            "name": "MoveType",
-            "type": "string",
-            "required": true
-        },
-        {
-            "name": "MoveDist",
-            "type": "i16",
-            "required": true
-        }
-    ]
+  "Name": "Push",
+  "Description": "Pushes a troop.",
+  "Attributes": [
+    {
+      "Name": "MoveType",
+      "Type": "string",
+      "Required": true
+    },
+    {
+      "Name": "MoveDist",
+      "Type": "i16",
+      "Required": true
+    }
+  ]
 }

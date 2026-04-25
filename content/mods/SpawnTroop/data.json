@@ -1,21 +1,26 @@
 {
-    "name": "SpawnTroop",
-    "description": "Spawns a troop on valid target tiles.",
-    "attributes": [
-        {
-            "name": "Troop",
-            "type": "string",
-            "required": true
-        },
-        {
-            "name": "Health",
-            "type": "u16",
-            "required": true
-        },
-        {
-            "name": "Move",
-            "type": "u16",
-            "required": true
-        }
-    ]
+  "Name": "SpawnTroop",
+  "Description": "Spawns a troop on valid target tiles.",
+  "Attributes": [
+    {
+      "Name": "Troop",
+      "Type": "string",
+      "Required": true
+    },
+    {
+      "Name": "Health",
+      "Type": "u16",
+      "Required": true
+    },
+    {
+      "Name": "Move",
+      "Type": "u16",
+      "Required": true
+    },
+    {
+      "Name": "TroopMods",
+      "Type": "array",
+      "Required": false
+    }
+  ]
 }

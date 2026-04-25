@@ -1,40 +1,73 @@
 {
-    "name": "Wizard",
-    "cost": 4,
-    "rarity": "rare",
-    "pack": "Core",
-    "mods": [
-        {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Wizard",
-                "Health": 2,
-                "Move": 1
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Summons a " },
-                        { "text": "Wizard", "tone": "gold" },
-                        { "text": " (2)." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    }
-                ]
-            }
+  "Name": "Wizard",
+  "Cost": 4,
+  "Rarity": "Rare",
+  "Pack": "Core",
+  "CardMods": {
+    "Id": "SpawnTroop",
+    "Trigger": "OnPlay",
+    "Attributes": {
+      "Troop": "Wizard",
+      "Health": 2,
+      "Move": 1,
+      "TroopMods": {
+        "Id": "Fireball",
+        "Trigger": "OnTurnStart",
+        "Attributes": {
+          "Damage": 1
+        },
+        "Description": {
+          "Lines": {
+            "Text": "Deals 1 damage to the first enemy in the forward direction."
+          }
+        },
+        "Targeting": {
+          "Type": "FlagMask",
+          "Value": {
+            "Type": "Ray",
+            "OriginFlags": {},
+            "RayFlags": [
+              "IsFocus",
+              "ContainsEnemy"
+            ],
+            "TerminationFlags": [
+              "ContainsEnemy",
+              "NotIsInBounds"
+            ],
+            "Directions": "Forward"
+          }
         }
-    ]
+      }
+    },
+    "Description": {
+      "Lines": [
+        {
+          "Text": "Summons a "
+        },
+        {
+          "Text": "Wizard",
+          "Tone": "gold"
+        },
+        {
+          "Text": " (2)."
+        }
+      ]
+    },
+    "Targeting": {
+      "Type": "FlagMask",
+      "Value": {
+        "Type": "Offset",
+        "Tiles": {
+          "X": 0,
+          "Y": 0,
+          "Flags": [
+            "IsFocus",
+            "Dealbreaker",
+            "IsFriendlyTerritory",
+            "IsEmpty"
+          ]
+        }
+      }
+    }
+  }
 }

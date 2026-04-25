@@ -1,40 +1,45 @@
 {
-    "name": "Human",
-    "cost": 4,
-    "rarity": "rare",
-    "pack": "Core",
-    "mods": [
+  "Name": "Human",
+  "Cost": 4,
+  "Rarity": "rare",
+  "Pack": "Core",
+  "CardMods": {
+    "Id": "SpawnTroop",
+    "Trigger": "OnPlay",
+    "Attributes": {
+      "Troop": "Human",
+      "Health": 3,
+      "Move": 1
+    },
+    "Description": {
+      "Lines": [
         {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Human",
-                "Health": 3,
-                "Move": 1
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Summons a " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (3)." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    }
-                ]
-            }
+          "Text": "Summons a "
+        },
+        {
+          "Text": "Human",
+          "Tone": "gold"
+        },
+        {
+          "Text": " (3)."
         }
-    ]
+      ]
+    },
+    "Targeting": {
+      "Type": "FlagMask",
+      "Value": {
+        "Type": "Offset",
+        "Tiles": {
+          "X": 0,
+          "Y": 0,
+          "Flags": [
+            "IsFocus",
+            "Dealbreaker",
+            "IsFriendlyTerritory",
+            "IsEmpty"
+          ]
+        }
+      }
+    }
+  }
 }

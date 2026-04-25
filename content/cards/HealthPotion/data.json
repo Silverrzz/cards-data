@@ -1,39 +1,44 @@
 {
-    "name": "Health Potion",
-    "cost": 1,
-    "rarity": "rare",
-    "pack": "Core",
-    "mods": [
+  "Name": "Health Potion",
+  "Cost": 1,
+  "Rarity": "rare",
+  "Pack": "Core",
+  "CardMods": {
+    "Id": "HealthPotion",
+    "Trigger": "OnPlay",
+    "Attributes": {
+      "Heal": 2
+    },
+    "Description": {
+      "Lines": [
         {
-            "type": "HealthPotion",
-            "attributes": {
-                "Heal": 2
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Restore 2 to an" }
-                    ],
-                    [
-                        { "text": "allied unit", "tone": "blue" },
-                        { "text": "." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "ContainsAlly"
-                        ]
-                    }
-                ]
-            }
+          "Text": "Restore 2 to an"
+        },
+        [
+          {
+            "Text": "allied unit",
+            "Tone": "blue"
+          },
+          {
+            "Text": "."
+          }
+        ]
+      ]
+    },
+    "Targeting": {
+      "Type": "FlagMask",
+      "Value": {
+        "Type": "Offset",
+        "Tiles": {
+          "X": 0,
+          "Y": 0,
+          "Flags": [
+            "IsFocus",
+            "Dealbreaker",
+            "ContainsAlly"
+          ]
         }
-    ]
+      }
+    }
+  }
 }

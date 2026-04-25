@@ -1,7 +1,5 @@
 {
-    "name": "NotEmpty",
-    "description": "This tile must contain something.",
-    "conflicts_with": [
-        "IsEmpty"
-    ]
+  "Name": "NotEmpty",
+  "Description": "This tile must contain something.",
+  "ConflictsWith": "IsEmpty"
 }

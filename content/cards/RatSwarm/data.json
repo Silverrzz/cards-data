@@ -1,99 +1,108 @@
 {
-    "name": "Rat Swarm",
-    "cost": 3,
-    "rarity": "common",
-    "pack": "Core",
-    "mods": [
+  "Name": "Rat Swarm",
+  "Cost": 3,
+  "Rarity": "common",
+  "Pack": "Core",
+  "CardMods": {
+    "Id": "SpawnTroop",
+    "Trigger": "OnPlay",
+    "Attributes": {
+      "Troop": "Rat",
+      "Health": 1,
+      "Move": 1
+    },
+    "Description": {
+      "Lines": [
+        [
+          {
+            "Text": "Summons "
+          },
+          {
+            "Text": "Rat",
+            "Tone": "gold"
+          },
+          {
+            "Text": " (1)"
+          }
+        ],
         {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Rat",
-                "Health": 1,
-                "Move": 1
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Summons " },
-                        { "text": "Rat", "tone": "gold" },
-                        { "text": " (1)" }
-                    ],
-                    [
-                        { "text": "around the target tile." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": -1,
-                        "y": -1,
-                        "flags": []
-                    },
-                    {
-                        "x": 0,
-                        "y": -1,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": -1,
-                        "flags": []
-                    },
-                    {
-                        "x": -1,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": -1,
-                        "y": 1,
-                        "flags": []
-                    },
-                    {
-                        "x": 0,
-                        "y": 1,
-                        "flags": [
-                            "IsFocus",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    },
-                    {
-                        "x": 1,
-                        "y": 1,
-                        "flags": []
-                    }
-                ]
-            }
+          "Text": "around the target tile."
         }
-    ]
+      ]
+    },
+    "Targeting": {
+      "Type": "FlagMask",
+      "Value": {
+        "Type": "Offset",
+        "Tiles": [
+          {
+            "X": -1,
+            "Y": -1,
+            "Flags": {}
+          },
+          {
+            "X": 0,
+            "Y": -1,
+            "Flags": [
+              "IsFocus",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          },
+          {
+            "X": 1,
+            "Y": -1,
+            "Flags": {}
+          },
+          {
+            "X": -1,
+            "Y": 0,
+            "Flags": [
+              "IsFocus",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          },
+          {
+            "X": 0,
+            "Y": 0,
+            "Flags": [
+              "IsFocus",
+              "Dealbreaker",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          },
+          {
+            "X": 1,
+            "Y": 0,
+            "Flags": [
+              "IsFocus",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          },
+          {
+            "X": -1,
+            "Y": 1,
+            "Flags": {}
+          },
+          {
+            "X": 0,
+            "Y": 1,
+            "Flags": [
+              "IsFocus",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          },
+          {
+            "X": 1,
+            "Y": 1,
+            "Flags": {}
+          }
+        ]
+      }
+    }
+  }
 }

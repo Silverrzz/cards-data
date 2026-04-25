@@ -1,81 +1,106 @@
 {
-    "name": "Base Defenders",
-    "cost": 3,
-    "rarity": "Common",
-    "pack": "Core",
-    "mods": [
-        {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Human",
-                "Health": 6,
-                "Move": 0
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "Summons a " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (6)," }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Offset",
-                "tiles": [
-                    {
-                        "x": 0,
-                        "y": 0,
-                        "flags": [
-                            "IsFocus",
-                            "Dealbreaker",
-                            "IsFriendlyTerritory",
-                            "IsEmpty"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "SpawnTroop",
-            "attributes": {
-                "Troop": "Human",
-                "Health": 3,
-                "Move": 0
-            },
-            "description": {
-                "lines": [
-                    [
-                        { "text": "summons extra " },
-                        { "text": "Human", "tone": "gold" },
-                        { "text": " (3)" }
-                    ],
-                    [
-                        { "text": "along the row if placed" }
-                    ],
-                    [
-                        { "text": "next to " },
-                        { "text": "Friendly Base", "tone": "blue" },
-                        { "text": "." }
-                    ]
-                ]
-            },
-            "placement": {
-                "type": "Ray",
-                "origin_flags": [
-                    "Dealbreaker",
-                    "IsNextToFriendlyBase",
-                    "IsEmpty"
-                ],
-                "ray_flags": [
-                    "IsFocus",
-                    "IsEmpty"
-                ],
-                "directions": [
-                    "Up",
-                    "Down"
-                ]
-            }
+  "Name": "Base Defenders",
+  "Cost": 3,
+  "Rarity": "Common",
+  "Pack": "Core",
+  "CardMods": [
+    {
+      "Id": "SpawnTroop",
+      "Trigger": "OnPlay",
+      "Attributes": {
+        "Troop": "Human",
+        "Health": 6,
+        "Move": 0
+      },
+      "Description": {
+        "Lines": [
+          {
+            "Text": "Summons a "
+          },
+          {
+            "Text": "Human",
+            "Tone": "gold"
+          },
+          {
+            "Text": " (6),"
+          }
+        ]
+      },
+      "Targeting": {
+        "Type": "FlagMask",
+        "Value": {
+          "Type": "Offset",
+          "Tiles": {
+            "X": 0,
+            "Y": 0,
+            "Flags": [
+              "IsFocus",
+              "Dealbreaker",
+              "IsFriendlyTerritory",
+              "IsEmpty"
+            ]
+          }
         }
-    ]
+      }
+    },
+    {
+      "Id": "SpawnTroop",
+      "Trigger": "OnPlay",
+      "Attributes": {
+        "Troop": "Human",
+        "Health": 3,
+        "Move": 0
+      },
+      "Description": {
+        "Lines": [
+          [
+            {
+              "Text": "summons extra "
+            },
+            {
+              "Text": "Human",
+              "Tone": "gold"
+            },
+            {
+              "Text": " (3)"
+            }
+          ],
+          {
+            "Text": "along the row if placed"
+          },
+          [
+            {
+              "Text": "next to "
+            },
+            {
+              "Text": "Friendly Base",
+              "Tone": "blue"
+            },
+            {
+              "Text": "."
+            }
+          ]
+        ]
+      },
+      "Targeting": {
+        "Type": "FlagMask",
+        "Value": {
+          "Type": "Ray",
+          "OriginFlags": [
+            "Dealbreaker",
+            "IsNextToFriendlyBase",
+            "IsEmpty"
+          ],
+          "RayFlags": [
+            "IsFocus",
+            "IsEmpty"
+          ],
+          "Directions": [
+            "Up",
+            "Down"
+          ]
+        }
+      }
+    }
+  ]
 }
