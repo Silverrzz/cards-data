@@ -28,8 +28,15 @@
             "Targeting": {
                 "Type": "FlagMask",
                 "Value": {
-                    "Type": "Global",
-                    "Flags": []
+                    "Type": "Ray",
+                    "OriginFlags": [],
+                    "RayFlags": [
+                        "IsFocus"
+                    ],
+                    "TerminationFlags": [],
+                    "Directions": [
+                        "Up"
+                    ]
                 }
             }
         }
