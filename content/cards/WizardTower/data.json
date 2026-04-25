@@ -1,0 +1,133 @@
+{
+    "Name": "Wizard Tower",
+    "Cost": 5,
+    "Rarity": "Epic",
+    "Pack": "Core",
+    "CardMods": [
+        {
+            "Id": "SpawnTroop",
+            "Trigger": "OnPlay",
+            "Attributes": {
+                "Troop": "WizardTower",
+                "Health": 5,
+                "Move": 0,
+                "TroopMods": {
+                    "Id": "SpawnTroop",
+                    "Trigger": "OnTurnStart",
+                    "Attributes": {
+                        "Troop": "Wizard",
+                        "Health": 2,
+                        "Move": 1,
+                        "TroopMods": {
+                            "Id": "Fireball",
+                            "Trigger": "OnTurnStart",
+                            "Attributes": {
+                                "Damage": 1
+                            },
+                            "Description": {
+                                "Lines": [
+                                    [
+                                        {
+                                            "Text": "Deals 1 damage to the first enemy in the forward direction."
+                                        }
+                                    ]
+                                ]
+                            },
+                            "Targeting": {
+                                "Type": "FlagMask",
+                                "Value": {
+                                    "Type": "Ray",
+                                    "OriginFlags": [
+                                        "IsFocus",
+                                        "ContainsEnemy"
+                                    ],
+                                    "RayFlags": [
+                                        "IsFocus",
+                                        "ContainsEnemy"
+                                    ],
+                                    "TerminationFlags": [
+                                        "ContainsEnemy",
+                                        "NotIsInBounds"
+                                    ],
+                                    "Directions": [
+                                        "Forward"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "Description": {
+                        "Lines": [
+                            [
+                                {
+                                    "Text": "Summons a "
+                                }
+                            ],
+                            [
+                                {
+                                    "Text": "Wizard",
+                                    "Tone": "gold"
+                                }
+                            ],
+                            [
+                                {
+                                    "Text": " (2)."
+                                }
+                            ]
+                        ]
+                    },
+                    "Targeting": {
+                        "Type": "FlagMask",
+                        "Value": {
+                            "Type": "Offset",
+                            "Tiles": [
+                                {
+                                    "X": 0,
+                                    "Y": -1,
+                                    "Flags": [
+                                        "IsFocus",
+                                        "Dealbreaker",
+                                        "IsFriendlyTerritory",
+                                        "IsEmpty"
+                                    ]
+                                },
+                                {
+                                    "X": 0,
+                                    "Y": 0,
+                                    "Flags": []
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Description": {
+                "Lines": [
+                    [
+                        {
+                            "Text": "At the start of each turn, spawns a Wizard."
+                        }
+                    ]
+                ]
+            },
+            "Targeting": {
+                "Type": "FlagMask",
+                "Value": {
+                    "Type": "Offset",
+                    "Tiles": [
+                        {
+                            "X": 0,
+                            "Y": 0,
+                            "Flags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsFriendlyTerritory",
+                                "IsEmpty"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

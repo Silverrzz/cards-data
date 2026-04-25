@@ -15,8 +15,7 @@
                     "Id": "Fireball",
                     "Trigger": "OnTurnStart",
                     "Attributes": {
-                        "Damage": 1,
-                        "attribute1": ""
+                        "Damage": 1
                     },
                     "Description": {
                         "Lines": [
