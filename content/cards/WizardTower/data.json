@@ -79,22 +79,18 @@
                     "Targeting": {
                         "Type": "FlagMask",
                         "Value": {
-                            "Type": "Offset",
-                            "Tiles": [
-                                {
-                                    "X": -1,
-                                    "Y": 0,
-                                    "Flags": []
-                                },
-                                {
-                                    "X": 0,
-                                    "Y": 0,
-                                    "Flags": [
-                                        "IsFocus",
-                                        "Dealbreaker",
-                                        "IsEmpty"
-                                    ]
-                                }
+                            "Type": "Ray",
+                            "OriginFlags": [],
+                            "RayFlags": [
+                                "IsFocus",
+                                "Dealbreaker",
+                                "IsEmpty"
+                            ],
+                            "TerminationFlags": [
+                                "IsInBounds"
+                            ],
+                            "Directions": [
+                                "Forward"
                             ]
                         }
                     }
