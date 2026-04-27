@@ -35,7 +35,7 @@
                         "StopHighlights": true,
                         "Attributes": {
                             "MoveType": "Forward",
-                            "MoveDist": 2
+                            "MoveDist": 1
                         },
                         "Description": {
                             "Lines": []
