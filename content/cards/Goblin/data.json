@@ -20,7 +20,7 @@
                         "Id": "Move",
                         "Trigger": "OnTurnStart",
                         "Attributes": {
-                            "DisplayName": "Move",
+                            "DisplayName": "Moves",
                             "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
@@ -36,7 +36,7 @@
                         "Id": "Move",
                         "Trigger": "OnSpawn",
                         "Attributes": {
-                            "DisplayName": "Move",
+                            "DisplayName": "Moves",
                             "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",

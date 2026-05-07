@@ -9,9 +9,9 @@
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
             "Attributes": {
-                "DisplayName": "Summon Human",
-                "Animation": "HealthPotion",
-                "TileHighlight": 4,
+                "DisplayName": "Medic",
+                "Animation": "SpawnTroop",
+                "TileHighlight": 2,
                 "Troop": "Human",
                 "Health": 2,
                 "RelativeTeam": "Friendly",
@@ -20,8 +20,8 @@
                         "Id": "Move",
                         "Trigger": "OnTurnStart",
                         "Attributes": {
-                            "DisplayName": "Move",
-                            "Animation": "None",
+                            "DisplayName": "Moves",
+                            "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
                             "MovementDist": 1,
@@ -36,8 +36,8 @@
                         "Id": "Move",
                         "Trigger": "OnSpawn",
                         "Attributes": {
-                            "DisplayName": "Move",
-                            "Animation": "None",
+                            "DisplayName": "Moves",
+                            "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
                             "MovementDist": 1,
@@ -73,7 +73,7 @@
             "Id": "Heal",
             "Trigger": "OnTurnStart",
             "Attributes": {
-                "DisplayName": "Heal",
+                "DisplayName": "Health Potion",
                 "Animation": "HealthPotion",
                 "TileHighlight": 3,
                 "Heal": 1
