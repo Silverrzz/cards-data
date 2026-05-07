@@ -9,8 +9,8 @@
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
             "Attributes": {
-                "DisplayName": "Summon Wizard",
-                "Animation": "HealthPotion",
+                "DisplayName": "Wizard",
+                "Animation": "SpawnTroop",
                 "TileHighlight": 4,
                 "Troop": "Wizard",
                 "Health": 2,
@@ -53,23 +53,7 @@
                         "Trigger": "OnTurnStart",
                         "Attributes": {
                             "DisplayName": "Move",
-                            "Animation": "None",
-                            "TileHighlight": 5,
-                            "MovementType": "Forward",
-                            "MovementDist": 1,
-                            "RelativeTeam": "Friendly"
-                        },
-                        "Targeting": {
-                            "Type": "Self",
-                            "Value": null
-                        }
-                    },
-                    {
-                        "Id": "Move",
-                        "Trigger": "OnSpawn",
-                        "Attributes": {
-                            "DisplayName": "Move",
-                            "Animation": "None",
+                            "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
                             "MovementDist": 1,
