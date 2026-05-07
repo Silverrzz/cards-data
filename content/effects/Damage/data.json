@@ -1,0 +1,26 @@
+{
+    "Name": "Damage",
+    "Description": "Deals damage to affected tiles.",
+    "Attributes": [
+        {
+            "Name": "DisplayName",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "Animation",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "TileHighlight",
+            "Type": "u16",
+            "Required": false
+        },
+        {
+            "Name": "Damage",
+            "Type": "u16",
+            "Required": true
+        }
+    ]
+}

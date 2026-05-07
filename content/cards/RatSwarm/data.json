@@ -3,7 +3,8 @@
     "Cost": 3,
     "Rarity": "common",
     "Pack": "Core",
-    "CardMods": [
+    "ArtPath": "sprites/rat.png",
+    "Effects": [
         {
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
@@ -11,15 +12,18 @@
             "Attributes": {
                 "Troop": "Rat",
                 "Health": 1,
-                "Move": 1,
-                "TroopMods": [
+                "Effects": [
                     {
-                        "Id": "MoveTroop",
+                        "Id": "Move",
                         "Trigger": "OnTurnStart",
                         "StopHighlights": true,
                         "Attributes": {
-                            "MoveType": "Forward",
-                            "MoveDist": 1
+                            "MovementType": "Forward",
+                            "MovementDist": 1,
+                            "RelativeTeam": "Friendly",
+                            "DisplayName": "Move",
+                            "Animation": "None",
+                            "TileHighlight": 5
                         },
                         "Description": {
                             "Lines": []
@@ -30,12 +34,16 @@
                         }
                     },
                     {
-                        "Id": "MoveTroop",
+                        "Id": "Move",
                         "Trigger": "OnSpawn",
                         "StopHighlights": true,
                         "Attributes": {
-                            "MoveType": "Forward",
-                            "MoveDist": 1
+                            "MovementType": "Forward",
+                            "MovementDist": 1,
+                            "RelativeTeam": "Friendly",
+                            "DisplayName": "Move",
+                            "Animation": "None",
+                            "TileHighlight": 5
                         },
                         "Description": {
                             "Lines": []
@@ -45,7 +53,11 @@
                             "Value": null
                         }
                     }
-                ]
+                ],
+                "RelativeTeam": "Friendly",
+                "DisplayName": "Summon Rat",
+                "Animation": "HealthPotion",
+                "TileHighlight": 4
             },
             "Description": {
                 "Lines": [

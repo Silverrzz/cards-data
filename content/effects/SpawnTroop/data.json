@@ -3,6 +3,21 @@
     "Description": "Spawns a troop on valid target tiles.",
     "Attributes": [
         {
+            "Name": "DisplayName",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "Animation",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "TileHighlight",
+            "Type": "u16",
+            "Required": false
+        },
+        {
             "Name": "Troop",
             "Type": "string",
             "Required": true
@@ -13,12 +28,12 @@
             "Required": true
         },
         {
-            "Name": "Move",
-            "Type": "u16",
+            "Name": "RelativeTeam",
+            "Type": "string",
             "Required": true
         },
         {
-            "Name": "TroopMods",
+            "Name": "Effects",
             "Type": "array",
             "Required": false
         }

@@ -1,0 +1,36 @@
+{
+    "Name": "Move",
+    "Description": "Moves affected troops.",
+    "Attributes": [
+        {
+            "Name": "DisplayName",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "Animation",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "TileHighlight",
+            "Type": "u16",
+            "Required": false
+        },
+        {
+            "Name": "MovementType",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "MovementDist",
+            "Type": "i16",
+            "Required": true
+        },
+        {
+            "Name": "RelativeTeam",
+            "Type": "string",
+            "Required": true
+        }
+    ]
+}

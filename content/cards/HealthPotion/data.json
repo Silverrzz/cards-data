@@ -3,13 +3,17 @@
     "Cost": 1,
     "Rarity": "rare",
     "Pack": "Core",
-    "CardMods": [
+    "ArtPath": "sprites/health_potion.png",
+    "Effects": [
         {
-            "Id": "HealthPotion",
+            "Id": "Heal",
             "Trigger": "OnPlay",
             "StopHighlights": false,
             "Attributes": {
-                "Heal": 2
+                "Heal": 2,
+                "DisplayName": "Health Potion",
+                "Animation": "HealthPotion",
+                "TileHighlight": 3
             },
             "Description": {
                 "Lines": [

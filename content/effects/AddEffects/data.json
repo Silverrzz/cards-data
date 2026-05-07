@@ -1,0 +1,26 @@
+{
+    "Name": "AddEffects",
+    "Description": "Adds scheduled effects to affected troops.",
+    "Attributes": [
+        {
+            "Name": "DisplayName",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "Animation",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "TileHighlight",
+            "Type": "u16",
+            "Required": false
+        },
+        {
+            "Name": "Effects",
+            "Type": "array",
+            "Required": false
+        }
+    ]
+}

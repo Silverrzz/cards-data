@@ -3,13 +3,17 @@
     "Cost": 2,
     "Rarity": "Common",
     "Pack": "Core",
-    "CardMods": [
+    "ArtPath": "sprites/rain_of_arrows.png",
+    "Effects": [
         {
-            "Id": "RainOfArrows",
+            "Id": "Damage",
             "Trigger": "OnPlay",
             "StopHighlights": false,
             "Attributes": {
-                "Damage": 1
+                "Damage": 1,
+                "DisplayName": "Rain of Arrows",
+                "Animation": "Arrows",
+                "TileHighlight": 2
             },
             "Description": {
                 "Lines": []

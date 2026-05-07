@@ -1,0 +1,26 @@
+{
+    "Name": "Heal",
+    "Description": "Heals troops on affected tiles.",
+    "Attributes": [
+        {
+            "Name": "DisplayName",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "Animation",
+            "Type": "string",
+            "Required": true
+        },
+        {
+            "Name": "TileHighlight",
+            "Type": "u16",
+            "Required": false
+        },
+        {
+            "Name": "Heal",
+            "Type": "u16",
+            "Required": true
+        }
+    ]
+}
