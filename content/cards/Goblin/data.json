@@ -1,5 +1,5 @@
 {
-    "Name": "Goblin",
+    "Name": "Goblins",
     "Cost": 2,
     "Rarity": "Common",
     "Pack": "Core",
@@ -9,9 +9,9 @@
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
             "Attributes": {
-                "DisplayName": "Summon Goblin",
-                "Animation": "HealthPotion",
-                "TileHighlight": 4,
+                "DisplayName": "Goblin",
+                "Animation": "SpawnTroop",
+                "TileHighlight": 2,
                 "Troop": "Goblin",
                 "Health": 2,
                 "RelativeTeam": "Friendly",
@@ -21,7 +21,7 @@
                         "Trigger": "OnTurnStart",
                         "Attributes": {
                             "DisplayName": "Move",
-                            "Animation": "None",
+                            "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
                             "MovementDist": 1,
@@ -37,7 +37,7 @@
                         "Trigger": "OnSpawn",
                         "Attributes": {
                             "DisplayName": "Move",
-                            "Animation": "None",
+                            "Animation": "RegularMove",
                             "TileHighlight": 5,
                             "MovementType": "Forward",
                             "MovementDist": 1,
