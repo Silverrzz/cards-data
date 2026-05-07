@@ -8,30 +8,11 @@
         {
             "Id": "Heal",
             "Trigger": "OnPlay",
-            "StopHighlights": false,
             "Attributes": {
-                "Heal": 2,
                 "DisplayName": "Health Potion",
                 "Animation": "HealthPotion",
-                "TileHighlight": 3
-            },
-            "Description": {
-                "Lines": [
-                    [
-                        {
-                            "Text": "Restore 2 to an"
-                        }
-                    ],
-                    [
-                        {
-                            "Text": "allied unit",
-                            "Tone": "blue"
-                        },
-                        {
-                            "Text": "."
-                        }
-                    ]
-                ]
+                "TileHighlight": 3,
+                "Heal": 2
             },
             "Targeting": {
                 "Type": "FlagMask",

@@ -8,25 +8,24 @@
         {
             "Id": "SpawnTroop",
             "Trigger": "OnPlay",
-            "StopHighlights": false,
             "Attributes": {
+                "DisplayName": "Summon Rat",
+                "Animation": "HealthPotion",
+                "TileHighlight": 4,
                 "Troop": "Rat",
                 "Health": 1,
+                "RelativeTeam": "Friendly",
                 "Effects": [
                     {
                         "Id": "Move",
                         "Trigger": "OnTurnStart",
-                        "StopHighlights": true,
                         "Attributes": {
-                            "MovementType": "Forward",
-                            "MovementDist": 1,
-                            "RelativeTeam": "Friendly",
                             "DisplayName": "Move",
                             "Animation": "None",
-                            "TileHighlight": 5
-                        },
-                        "Description": {
-                            "Lines": []
+                            "TileHighlight": 5,
+                            "MovementType": "Forward",
+                            "MovementDist": 1,
+                            "RelativeTeam": "Friendly"
                         },
                         "Targeting": {
                             "Type": "Self",
@@ -36,48 +35,19 @@
                     {
                         "Id": "Move",
                         "Trigger": "OnSpawn",
-                        "StopHighlights": true,
                         "Attributes": {
-                            "MovementType": "Forward",
-                            "MovementDist": 1,
-                            "RelativeTeam": "Friendly",
                             "DisplayName": "Move",
                             "Animation": "None",
-                            "TileHighlight": 5
-                        },
-                        "Description": {
-                            "Lines": []
+                            "TileHighlight": 5,
+                            "MovementType": "Forward",
+                            "MovementDist": 1,
+                            "RelativeTeam": "Friendly"
                         },
                         "Targeting": {
                             "Type": "Self",
                             "Value": null
                         }
                     }
-                ],
-                "RelativeTeam": "Friendly",
-                "DisplayName": "Summon Rat",
-                "Animation": "HealthPotion",
-                "TileHighlight": 4
-            },
-            "Description": {
-                "Lines": [
-                    [
-                        {
-                            "Text": "Summons "
-                        },
-                        {
-                            "Text": "Rat",
-                            "Tone": "gold"
-                        },
-                        {
-                            "Text": " (1)"
-                        }
-                    ],
-                    [
-                        {
-                            "Text": "around the target tile."
-                        }
-                    ]
                 ]
             },
             "Targeting": {

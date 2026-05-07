@@ -8,15 +8,11 @@
         {
             "Id": "Damage",
             "Trigger": "OnPlay",
-            "StopHighlights": false,
             "Attributes": {
-                "Damage": 1,
                 "DisplayName": "Rain of Arrows",
                 "Animation": "Arrows",
-                "TileHighlight": 2
-            },
-            "Description": {
-                "Lines": []
+                "TileHighlight": 4,
+                "Damage": 1
             },
             "Targeting": {
                 "Type": "FlagMask",
